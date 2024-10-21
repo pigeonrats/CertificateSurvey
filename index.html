@@ -6,19 +6,28 @@
   <title>Trash Friends</title>
   </head>
   <body>
-    <h1 id="title">Best Trash Friends</h1>
+  
+    <main>
+      <center><h1 id="title">Best Trash Friends</h1></center>
+      
+      <box1>
+        <center>
       <p id="description">
-        Help us find out which trash friend is the best!
+  
+        <img src="https://streamline.imgix.net/9909d0de-9797-4416-97c3-b6f877e5307d/02e26f6a-00c2-4340-8716-849ca80b3057/opossum_shutterstock_1027070500.jpg?ixlib=rb-1.1.0&w=2000&h=2000&fit=max&or=0&s=698d81abd1604ed17dfbb14cf39694f8" width="300px">
+        <br>
+           Help us find out which trash friend is the best and if people would adopt such fun friends!
+        
+        </p>
+      </center>
+    </box1>
+          
+       
         <form id="survey-form">
-          
-         <label for="name" id="name-label"> Name: <input id="name" type="text" required placeholder="Enter Your Name">
-          </label>
-          
-          <label for="email" id="email-label">Email<input id="email" type="email" required
-placeholder="Enter Your Email">
-            <label for="number" id="number-label">Age<input id="number" type="number" min="3" max="10" placeholder="Enter Your Age"></label>
+         
+        
                                                           </label>
-           
+      <h2>Favorite Trash Friend</h2>
                     <select id="dropdown" name="friends">
             <option value="">(select one)</option>
             <option value="1">Raccoon</option>
@@ -28,23 +37,50 @@ placeholder="Enter Your Email">
           </select>
 
           
-             <label for="pets"><input id="pets" type="radio" name="havepets" class="inline" value="1"/ checked> Have Pets</label>
-             <label for="nopets">
-        <input id="nopets" type="radio" name="havepets" class="inline" value="2"/> No Pets
+      <h2>Would You Adopt One?</h2><label for="adoptyes"><input id="adoptyes" type="radio" name="adopt" class="inline" value="1"/ checked> Yes!</label>
+             <label for="adoptno">
+        <input id="adoptno" type="radio" name="adopt" class="inline" value="2"/> No :c
         </label>
 
+        <h2>Which Would You Adopt?</h2>
+      <i>Check all that apply!</i><br><Br>
               <input id="type1" type="checkbox" name="type1" class="inline" value="1"/> 
               Raccoon
+        <br>
              <input id="type2" type="checkbox" name="type2" class="inline" value="2"/> 
               Pigeon
+        <br>
               <input id="type3" type="checkbox" name="type3" class="inline" value="3"/> 
               Opossum
-                       <input id="type3" type="checkbox" name="type3" class="inline" value="3"/> 
+        <br>
+                       <input id="type4" type="checkbox" name="type4" class="inline" value="4"/> 
               Rat
-              
+              <br>
+      </form>
+      <form id="survey-form">
+        <br>
+        <h2>Comments!</h2>
               <textarea id="comments" name="comments" rows="3" cols="30" placeholder="Tell us your stories of trash friends or pets!"></textarea>
-                
-                <input id="submit" type="submit" value="Submit" />
+      <center><img src="https://static.wikia.nocookie.net/vsbattles/images/d/df/Norway_Rat.png" width="100px"></center>
+        
+       <label for="name" id="name-label" display="block"> Name<br>
+         <input id="name" type="text"  display="block" required placeholder="Enter Your Name" style="width:500px">
+          </label>
+          <br>
+       
+          <label for="email" id="email-label">Email
+            <br><input id="email" type="email" required
+placeholder="Enter Your Email" style="width:500px">
+            <br>
+            <label for="number" id="number-label">Age<br><input id="number" type="number" min="3" max="10" placeholder="Your Age!" style="width:500px"></label>
+        
+      <Br>
+      <br>
+      <center>
+        <input id="submit" type="submit" value="Submit" style="width:100px" /></center>
+           
               </form>
+    
+      
     </body>
   </html>
