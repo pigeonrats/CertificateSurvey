@@ -1,0 +1,50 @@
+<! DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>Trash Friends</title>
+  </head>
+  <body>
+    <h1 id="title">Best Trash Friends</h1>
+      <p id="description">
+        Help us find out which trash friend is the best!
+        <form id="survey-form">
+          
+         <label for="name" id="name-label"> Name: <input id="name" type="text" required placeholder="Enter Your Name">
+          </label>
+          
+          <label for="email" id="email-label">Email<input id="email" type="email" required
+placeholder="Enter Your Email">
+            <label for="number" id="number-label">Age<input id="number" type="number" min="3" max="10" placeholder="Enter Your Age"></label>
+                                                          </label>
+           
+                    <select id="dropdown" name="friends">
+            <option value="">(select one)</option>
+            <option value="1">Raccoon</option>
+            <option value="2">Opossum</option>
+            <option value="3">Rat</option>
+            <option value="4">Pigeon</option>
+          </select>
+
+          
+             <label for="pets"><input id="pets" type="radio" name="havepets" class="inline" value="1"/ checked> Have Pets</label>
+             <label for="nopets">
+        <input id="nopets" type="radio" name="havepets" class="inline" value="2"/> No Pets
+        </label>
+
+              <input id="type1" type="checkbox" name="type1" class="inline" value="1"/> 
+              Raccoon
+             <input id="type2" type="checkbox" name="type2" class="inline" value="2"/> 
+              Pigeon
+              <input id="type3" type="checkbox" name="type3" class="inline" value="3"/> 
+              Opossum
+                       <input id="type3" type="checkbox" name="type3" class="inline" value="3"/> 
+              Rat
+              
+              <textarea id="comments" name="comments" rows="3" cols="30" placeholder="Tell us your stories of trash friends or pets!"></textarea>
+                
+                <input id="submit" type="submit" value="Submit" />
+              </form>
+    </body>
+  </html>
